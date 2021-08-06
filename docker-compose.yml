@@ -1,0 +1,6 @@
+services:
+  zmk-builder:
+    build: .
+    volumes:
+      - ./config:/code/config
+      - ./build:/code/build
