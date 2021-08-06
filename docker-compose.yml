@@ -1,6 +1,8 @@
 services:
   zmk-builder:
     build: .
+    environment:
+      - BOARD=nice60
     volumes:
       - ./config:/code/config
       - ./build:/code/build
