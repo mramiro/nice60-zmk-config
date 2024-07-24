@@ -6,4 +6,4 @@ board: config/nice60.conf config/nice60.keymap
 	docker-compose up
 
 clean:
-	rm -r build/*
+	rm -rf build/*

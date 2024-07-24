@@ -1,4 +1,4 @@
-FROM zmkfirmware/zmk-build-arm:2.4
+FROM zmkfirmware/zmk-build-arm:2.5
 WORKDIR /code
 COPY config/west.yml config/west.yml
 RUN west init -l config
